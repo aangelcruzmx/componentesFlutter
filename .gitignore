@@ -1,15 +1,25 @@
 # Excluir todo por defecto
 *
 
-# Excluir específicamente las carpetas no deseadas
+# Incluir las carpetas específicas
 !.gitignore
 !.pubspec.yaml
 !.pubspec.lock
-!.android/
-!.ios/
-!.lib/
-!.assets/
-!.data/
+!android/
+!assets/
+!ios/
+!lib/
+
+# Incluir todo el contenido dentro de assets
+!assets/**
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
 
 
 
