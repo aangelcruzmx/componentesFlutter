@@ -1,5 +1,3 @@
-# Excluir todo por defecto
-*
 
 # Incluir las carpetas específicas
 !.gitignore
